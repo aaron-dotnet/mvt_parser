@@ -1,0 +1,122 @@
+Device Local Timestamp,Plugin,Event,Description
+2008-12-31 18:00:00,Packages,package_last_update,"com.google.android.networkstack.permissionconfig (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_install,"com.android.providers.settings (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_last_update,"com.miui.touchassistant (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_first_install,"com.xiaomi.bluetooth (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_first_install,"com.miui.phone.carriers.overlay.vodafone (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_install,"com.google.android.configupdater (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_first_install,"com.miui.phone.carriers.overlay.h3g (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_last_update,"com.android.emergency (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_first_install,"com.qualcomm.qti.qcolor (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_first_install,"com.qualcomm.embms (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_install,"com.miui.screenshot (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_last_update,"com.miui.system (system: True, third party: False)"
+2008-12-31 18:00:00,Packages,package_install,"com.google.android.calendar (system: True, third party: False)"
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib64/libOmxAacEnc.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib/android.hardware.vibrator-V2-cpp.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libbufferhubqueue.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libdumputils.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/etc/permissions/com.nxp.nfc.xml
+2009-01-01 00:00:00.000000,Files,file_modified,/system/fonts/NotoSansBrahmi-Regular.ttf
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/etc/seccomp_policy/sxraux-arm.policy
+2009-01-01 00:00:00.000000,Files,file_modified,/system/cust/cl/cust.prop
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libhidlbase.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/framework/uimlpalibrary.jar
+2009-01-01 00:00:00.000000,Files,file_modified,/system/etc/forcedarkconfig/cn.etouch.ecalendar.json
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/usr/srec/en-US/word_confidence_classifier
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/radio/qcril_database/upgrade/26_version_update_ecc_table.sql
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib64/hw/vulkan.adreno.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/framework/qti-telephony-utils.jar
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/lib64/vendor.qti.hardware.radio.ims@1.6.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/media/audio/ringtones/BentleyDubs.ogg
+2009-01-01 00:00:00.000000,Files,file_modified,/system/etc/security/cacerts/b0f3e76e.0
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib/libmiuiinput.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/etc/group
+2009-01-01 00:00:00.000000,Files,file_modified,/system/framework/arm64/boot-WfdCommon.oat
+2009-01-01 00:00:00.000000,Files,file_modified,/product/overlay/DevicesAndroidOverlay.apk
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/etc/permissions/com.android.storagemanager.xml
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libmiuiblur.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/lib64/vendor.qti.data.factory@2.3.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/media/audio/notifications/Deneb.ogg
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib/lib-rtpcommon.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/lib64/libgralloc.system.qti.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/cust/bq/cust.prop
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libMiuiGalleryNSGIF.so
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib/libadsprpc.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/media/theme/miui_mod_icons/com.android.contacts.activities.TwelveKeyDialer.png
+2009-01-01 00:00:00.000000,Files,file_modified,/product/usr/srec/en-US/c_fst
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/etc/default_volume_tables.xml
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libcodec2_hidl_client@1.2.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/etc/permissions/com.android.nfc_extras.xml
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/app/IWlanService/IWlanService.apk
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib64/libsurfaceflinger.so
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/etc/ftm_loopback
+2009-01-01 00:00:00.000000,Files,file_modified,/system/merge_config_other_item_list
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/odm/etc/NOTICE.xml.gz
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib/libwfddisplayconfig_proprietary.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/usr/hyphen-data/hyph-mn-cyrl.hyb
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/etc/sensors/sns_reg_config
+2009-01-01 00:00:00.000000,Files,file_modified,/product/etc/build.prop
+2009-01-01 00:00:00.000000,Files,file_modified,/product/media/audio/ringtones/Ring_Classic_02.ogg
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib/libcodec2_hidl_client@1.0.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/cust/er/cust.prop
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib/android.frameworks.schedulerservice@1.0.so
+2009-01-01 00:00:00.000000,Files,file_modified,/product/media/audio/alarms/Neptunium.ogg
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib/hw/android.hardware.audio@6.0-impl.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system_ext/lib64/vendor.qti.qesdhal@1.0.so
+2009-01-01 00:00:00.000000,Files,file_modified,/system/cust/ml/cust.prop
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/lib64/camera/com.qti.sensor.excalibur_gc8034.so
+2009-01-01 00:00:00.000000,Files,file_modified,/vendor/etc/camera/105_WindSing.png
+2009-01-01 00:00:00.000000,Files,file_modified,/system/etc/precust_theme/theme/.data/preview/theme/ebfce684-1d1e-4a70-ae14-f7ca038f4d34/preview_icons_small_0.jpg
+2009-01-01 00:00:00.000000,Files,file_modified,/system/lib/service.incremental.so
+2023-03-16 22:23:52,Packages,package_install,"android.autoinstalls.config.Xiaomi.qssi (system: True, third party: False)"
+2023-03-16 22:23:52,Packages,package_last_update,"android.autoinstalls.config.Xiaomi.qssi (system: True, third party: False)"
+2023-03-17 01:27:17,Packages,package_first_install,"com.mercadolibre (system: False, third party: True)"
+2023-03-17 01:28:11,Packages,package_first_install,"com.mercadopago.wallet (system: False, third party: True)"
+2023-03-17 02:11:07,Packages,package_install,"com.miui.securityadd (system: True, third party: False)"
+2023-03-17 02:11:08,Packages,package_last_update,"com.miui.securityadd (system: True, third party: False)"
+2023-03-18 00:05:36,Packages,package_first_install,"ai.powerup.stori (system: False, third party: True)"
+2023-03-18 00:13:20,Packages,package_first_install,"com.paypal.android.p2pmobile (system: False, third party: True)"
+2023-03-21 09:50:28,Packages,package_first_install,"com.bancomer.mbanking (system: False, third party: True)"
+2023-03-21 10:37:27,Packages,package_first_install,"com.didiglobal.passenger (system: False, third party: True)"
+2023-03-22 11:59:02,Packages,package_install,"com.xiaomi.simactivate.service (system: True, third party: False)"
+2023-03-22 11:59:02,Packages,package_last_update,"com.xiaomi.simactivate.service (system: True, third party: False)"
+2023-03-22 11:59:23,Packages,package_install,"com.miui.cloudservice (system: True, third party: False)"
+2023-03-22 11:59:23,Packages,package_last_update,"com.miui.cloudservice (system: True, third party: False)"
+2023-03-22 11:59:26,Packages,package_install,"com.miui.miservice (system: True, third party: False)"
+2023-03-22 11:59:26,Packages,package_last_update,"com.miui.miservice (system: True, third party: False)"
+2023-03-22 11:59:41,Packages,package_last_update,"com.miui.yellowpage (system: True, third party: False)"
+2023-03-22 11:59:41,Packages,package_install,"com.miui.yellowpage (system: True, third party: False)"
+2023-03-26 00:56:05,Packages,package_first_install,"com.valvesoftware.android.steam.community (system: False, third party: True)"
+2023-11-05 17:54:30.193000,SMS,sms_sent,"MOVISTAR: ""Â¡Recarga $30 y recibe doble de datos! Disfruta 300 MB EXTRAS para navegar x3 dias. Hazlo en tienda.movistar.com.mx/recarga-en-linea https://mvads.mx/rcs/w/fd3a127af9"""
+2023-11-06 16:55:05.119000,SMS,sms_sent,"MOVISTAR: ""Â¡Tu recarga HOY te da mas! Por $50 disfruta 1 GB EXTRA para navegar x7 dias. Recarga en tienda.movistar.com.mx/recarga-en-linea https://mvads.mx/rcs/w/0e8f222a17"""
+2023-11-06 16:56:45.301000,SMS,sms_sent,"5538437083: ""Hola \\nComo estas?"""
+2023-11-06 18:25:17.217000,SMS,sms_sent,"MOVISTAR: ""Â¡Recarga $30 y recibe doble de datos! Disfruta 300 MB EXTRAS para navegar x3 dias. Hazlo en tienda.movistar.com.mx/recarga-en-linea https://mvads.mx/rcs/w/b202373293"""
+2023-11-07 02:04:30.288000,SMS,sms_received,"+527547182070: ""Te puse 20 pesos de saldo"""
+2023-11-07 02:05:07.530000,SMS,sms_received,"'+527547182070: ""En cuanto puedas regresa la llamada"""
+2023-11-07 05:41:35.325000,SMS,sms_sent,"12121: ""440360 es tu contraseÃ±a temporal de Amazon. No la compartas con nadie."""
+2023-11-07 07:25:47.091000,SMS,sms_sent,"8141719001: ""[DiDi]Tu codigo de verificacion de tarjeta de credito es 6753. Valido por 5 minutos."""
+2023-11-07 07:26:17.473000,SMS,sms_sent,"6331361063: ""<DiDi>Tu tarjeta fue preaprobada. Agregar informacion ahora!  https://dd.me/J8SYTwh"""
+2023-11-07 19:39:17.741000,SMS,sms_sent,"MOVISTAR: ""Â¡ILIMITADO! Disfruta tus apps favoritas para divertirte SIN LIMITE por solo $30. Â¡TikTok, YouTube y Netflix x1 dia! Recarga ya en donde quierastienda.movistar.com.mx/recarga-en-linea https://mvads.mx/rcs/w/d4221f1f6b"""
+2023-11-08 01:59:57.717000,SMS,sms_sent,"110: ""Tu paquete automatico ha vencido. No te quedes incomunicado! Recibe nuevos beneficios recargando ahora, en https://tienda.movistar.com.mx/recarga-en-linea"""
+2026-04-09 04:02:09,Packages,package_last_update,"com.microsoft.office.outlook (system: False, third party: True)"
+2026-04-09 04:02:23,Packages,package_last_update,"com.microsoft.skydrive (system: False, third party: True)"
+2026-04-09 04:02:31,Packages,package_install,"org.microemu.android.model.common.VTUserApplicationBNRTMB (system: False, third party: True)"
+2026-04-09 04:02:32,Packages,package_last_update,"com.linkedin.android (system: False, third party: True)"
+2026-04-09 04:02:34,Packages,package_install,"com.shazam.android (system: False, third party: True)"
+2026-04-09 04:02:38,Packages,package_install,"org.telegram.messenger (system: False, third party: True)"
+2026-04-09 04:03:01,Packages,package_last_update,"com.discord (system: False, third party: True)"
+2026-04-09 04:03:10,Packages,package_install,"com.uphold.wallet (system: False, third party: True)"
+2026-04-09 04:03:12,Packages,package_last_update,"com.instagram.android (system: False, third party: True)"
+2026-04-09 04:03:45,Packages,package_install,"com.google.android.gm (system: True, third party: False)"
+2026-04-09 04:04:04,Packages,package_last_update,"org.microemu.android.model.common.VTUserApplicationBNRTMB (system: False, third party: True)"
+2026-04-09 04:04:12,Packages,package_last_update,"com.shazam.android (system: False, third party: True)"
+2026-04-09 04:04:18,Packages,package_last_update,"org.telegram.messenger (system: False, third party: True)"
+2026-04-09 04:04:26,Packages,package_last_update,"com.uphold.wallet (system: False, third party: True)"
+2026-04-09 04:04:30,Packages,package_last_update,"com.google.android.gm (system: True, third party: False)"
+2026-04-09 07:04:24,Packages,package_install,"com.xiaomi.glgm (system: True, third party: False)"
+2026-04-09 07:04:25,Packages,package_last_update,"com.xiaomi.glgm (system: True, third party: False)"
+2026-04-09 11:59:18,Packages,package_install,"com.google.android.webview (system: True, third party: False)"
