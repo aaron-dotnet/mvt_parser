@@ -1,45 +1,40 @@
 # AGENTS.md
 
-## Ejecutar proyecto
+## Ejecutar
 
 ```bash
 dotnet run
 ```
 
-## Leer primero
+## Notas
 
-`README.md` está en español. Contiene la descripción del proyecto, estructura de archivos MVT soportados y estado actual de desarrollo.
+- Proyecto parsea archivos de salida MVT (Mobile Verification Toolkit)
+- READMEs en español
+- .NET 10 requerido
+- Samples en directorio `samples/`
 
-## Requisitos
+## Parsers implementados
 
-- .NET 10
+| Archivo | Parser |
+|---------|--------|
+| timeline.csv | TimelineParser |
+| files.json | FilesParser |
+| packages.json | PackagesParser |
+| settings.json | SettingsParser |
+| getprop.json | GetpropParser |
+| processes.json | ProcessesParser |
+| sms.json | SmsParser |
+| info.json | InfoParser |
+| selinux_status.json | SelinuxParser |
+| logcat.txt | LogcatParser |
+| command.log | CommandLogParser |
+| dumpsys.txt | DumpsysParser |
 
-## Estado del proyecto
+## Desarrollo
 
-Parsers implementados:
-
-- timeline.csv: Parseo básico (CSV con fechas, Plugins, Events)
-- files.json: ✅ FilesParser.ParseAsync()
-- packages.json: ✅ PackagesParser.ParseAsync()
-- settings.json: ✅ SettingsParser.ParseAsync()
-- getprop.json: ✅ GetpropParser.ParseAsync()
-- processes.json: ✅ ProcessesParser.ParseAsync()
-- sms.json: ✅ SmsParser.ParseAsync()
-- info.json: ✅ InfoParser.ParseAsync()
-- selinux_status.json: ✅ SelinuxParser.ParseAsync()
-- logcat.txt: ✅ LogcatParser.ParseAsync()
-- command.log: ✅ CommandLogParser.ParseAsync()
-- dumpsys.txt: ✅ DumpsysParser.ParseServicesAsync()
-
-Modelos en Models/: FileEntry, Package, SystemSettings, AndroidProperty, Process, SmsMessage, ExtractionInfo, SelinuxStatus, LogEntry, CommandLogEntry, DumpsysService
-
-Samples en samples/: archivos genéricos para pruebas
-
-## Notas de desarrollo
-
-- Archivos MVT pueden tener millones de líneas; parsers usan async streaming
-- Encoding: UTF8 para JSON y TXT
-- Para archivos grandes, usar JSON deserialization con System.Text.Json
-- LogcatParser parsea formato: "MM-DD HH:MM:SS.mmm PID TID L TAG: message"
-- CommandLogParser parsea formato: "yyyy-MM-dd HH:MM:SS,mmm - module - level - message"
-- dumpsys solo extrae lista de servicios activos
+- Archivos MVT reales pueden tener millones de líneas
+- Parsers usan async streaming para archivos grandes
+- Serialization con System.Text.Json
+- Logcat: formato "MM-DD HH:MM:SS.mmm PID TID L TAG: message"
+- Command log: formato "yyyy-MM-dd HH:MM:SS,mmm - module - level - message"
+- Dumpsys solo extrae lista de servicios activos (no parsea contenido completo)
