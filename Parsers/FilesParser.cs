@@ -1,7 +1,7 @@
 using System.Text.Json;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class FilesParser
 {
@@ -12,8 +12,8 @@ public static class FilesParser
 
     public static async Task<List<FileEntry>> ParseAsync(string filePath)
     {
-        var files = new List<FileEntry>();
-        var json = await File.ReadAllTextAsync(filePath);
+        List<FileEntry> files = [];
+        string json = await File.ReadAllTextAsync(filePath);
         files = JsonSerializer.Deserialize<List<FileEntry>>(json, JsonOptions) ?? [];
         return files;
     }

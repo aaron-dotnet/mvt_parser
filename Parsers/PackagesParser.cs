@@ -1,18 +1,19 @@
 using System.Text.Json;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class PackagesParser
 {
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
-        PropertyNameCaseInsensitive = true
+        PropertyNameCaseInsensitive = true,
+        AllowTrailingCommas = true
     };
 
     public static async Task<List<Package>> ParseAsync(string filePath)
     {
-        var json = await File.ReadAllTextAsync(filePath);
+        string json = await File.ReadAllTextAsync(filePath);
         return JsonSerializer.Deserialize<List<Package>>(json, JsonOptions) ?? [];
     }
 }

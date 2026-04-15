@@ -1,7 +1,7 @@
 using System.Text.Json;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class InfoParser
 {
@@ -12,7 +12,7 @@ public static class InfoParser
 
     public static async Task<ExtractionInfo> ParseAsync(string filePath)
     {
-        var json = await File.ReadAllTextAsync(filePath);
+        string json = await File.ReadAllTextAsync(filePath);
         return JsonSerializer.Deserialize<ExtractionInfo>(json, JsonOptions) ?? new ExtractionInfo(null, null, null, null, null);
     }
 }

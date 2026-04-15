@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class LogcatParser
 {
@@ -15,10 +15,10 @@ public static class LogcatParser
 
     public static async Task<List<LogEntry>> ParseAsync(string filePath)
     {
-        var entries = new List<LogEntry>();
-        await foreach (var line in File.ReadLinesAsync(filePath))
+        List<LogEntry> entries = [];
+        await foreach (string line in File.ReadLinesAsync(filePath))
         {
-            var entry = ParseLine(line);
+            LogEntry? entry = ParseLine(line);
             if (entry != null)
                 entries.Add(entry);
         }
@@ -30,7 +30,7 @@ public static class LogcatParser
         if (string.IsNullOrWhiteSpace(line))
             return null;
 
-        var match = LogLineRegex.Match(line);
+        Match match = LogLineRegex.Match(line);
         if (!match.Success)
             return null;
 

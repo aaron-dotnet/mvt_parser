@@ -1,7 +1,7 @@
 using System.Text.Json;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class ProcessesParser
 {
@@ -12,7 +12,7 @@ public static class ProcessesParser
 
     public static async Task<List<Process>> ParseAsync(string filePath)
     {
-        var json = await File.ReadAllTextAsync(filePath);
+        string json = await File.ReadAllTextAsync(filePath);
         return JsonSerializer.Deserialize<List<Process>>(json, JsonOptions) ?? [];
     }
 }

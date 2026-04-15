@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace MvtParser.Models;
+namespace mvt_parser.Models;
 
 public record ApkFile(
     [property: JsonPropertyName("path")]
@@ -52,5 +52,7 @@ public record Package(
     [property: JsonPropertyName("last_update_time")]
     string? LastUpdateTime,
     [property: JsonPropertyName("permissions")]
-    List<PackagePermission>? Permissions
+    List<PackagePermission>? Permissions,
+    [property: JsonPropertyName("requested_permissions")]
+    List<string>? RequestedPermissions
 );

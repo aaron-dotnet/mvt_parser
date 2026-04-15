@@ -13,7 +13,6 @@ dotnet run
 ## Requisitos
 
 - .NET 10
-- dotnet add package Newtonsoft.Json
 
 ## Estado del proyecto
 

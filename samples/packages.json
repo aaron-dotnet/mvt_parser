@@ -130,5 +130,5 @@
             "com.google.android.c2dm.permission.RECEIVE",
             "android.permission.CHANGE_WIFI_STATE"
         ]
-    },
+    }
 ]

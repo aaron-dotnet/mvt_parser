@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace MvtParser.Models;
+namespace mvt_parser.Models;
 
 public record ExtractionInfo(
     [property: JsonPropertyName("target_path")]

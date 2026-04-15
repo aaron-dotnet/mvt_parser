@@ -1,13 +1,13 @@
-using Newtonsoft.Json;
-using MvtParser.Models;
+using System.Text.Json;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class SelinuxParser
 {
     public static async Task<SelinuxStatus> ParseAsync(string filePath)
     {
-        var json = await File.ReadAllTextAsync(filePath);
-        return JsonConvert.DeserializeObject<SelinuxStatus>(json) ?? new SelinuxStatus("unknown");
+        string json = await File.ReadAllTextAsync(filePath);
+        return JsonSerializer.Deserialize<SelinuxStatus>(json) ?? new SelinuxStatus("unknown");
     }
 }

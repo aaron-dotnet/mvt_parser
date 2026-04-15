@@ -1,7 +1,7 @@
 using System.Text.Json;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class SettingsParser
 {
@@ -12,7 +12,7 @@ public static class SettingsParser
 
     public static async Task<SystemSettings> ParseAsync(string filePath)
     {
-        var json = await File.ReadAllTextAsync(filePath);
+        string json = await File.ReadAllTextAsync(filePath);
         return JsonSerializer.Deserialize<SystemSettings>(json, JsonOptions) ?? new SystemSettings(null, null, null);
     }
 }

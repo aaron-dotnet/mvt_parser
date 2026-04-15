@@ -1,20 +1,21 @@
 using System.Text.RegularExpressions;
-using MvtParser.Models;
+using mvt_parser.Models;
 
-namespace MvtParser.Parsers;
+namespace mvt_parser.Parsers;
 
 public static class CommandLogParser
 {
+    // [date] - [process] - [mode] - [message]
     private static readonly Regex LogLineRegex = new(
         @"^(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2},\d{3})\s+-\s+(\S+)\s+-\s+(\w+)\s+-\s+(.*)$",
         RegexOptions.Compiled);
 
     public static async Task<List<CommandLogEntry>> ParseAsync(string filePath)
     {
-        var entries = new List<CommandLogEntry>();
-        await foreach (var line in File.ReadLinesAsync(filePath))
+        List<CommandLogEntry> entries = [];
+        await foreach (string line in File.ReadLinesAsync(filePath))
         {
-            var entry = ParseLine(line);
+            CommandLogEntry? entry = ParseLine(line);
             if (entry != null)
                 entries.Add(entry);
         }
@@ -26,7 +27,7 @@ public static class CommandLogParser
         if (string.IsNullOrWhiteSpace(line))
             return null;
 
-        var match = LogLineRegex.Match(line);
+        Match match = LogLineRegex.Match(line);
         if (!match.Success)
             return null;
 
