@@ -1,0 +1,32 @@
+[
+    {
+        "path": "/sdcard/Android/obb/.nomedia",
+        "modified_time": "2022-03-28 08:05:46.430000",
+        "mode": "660",
+        "is_suid": false,
+        "is_sgid": false,
+        "size": "0",
+        "owner": "root",
+        "group": "sdcard_rw"
+    },
+    {
+        "path": "/sdcard/Android/data/com.example.app/files/data.txt",
+        "modified_time": "2023-04-12 23:42:24.663176",
+        "mode": "660",
+        "is_suid": false,
+        "is_sgid": false,
+        "size": "1024",
+        "owner": "u0_a100",
+        "group": "sdcard_rw"
+    },
+    {
+        "path": "/sdcard/Download/document.pdf",
+        "modified_time": "2024-01-15 10:30:00.000000",
+        "mode": "644",
+        "is_suid": false,
+        "is_sgid": false,
+        "size": "2048576",
+        "owner": "u0_a95",
+        "group": "sdcard_rw"
+    }
+]

@@ -1,0 +1,11 @@
+Currently running services:
+  ActivityManagerService
+  PackageManagerService
+  WindowManagerService
+  BatteryService
+  AlarmManagerService
+  NotificationManagerService
+  LocationManagerService
+  BluetoothService
+  WiFiService
+  PowerManagerService

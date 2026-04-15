@@ -1,0 +1,94 @@
+[
+    {
+        "address": "WhatsApp",
+        "body": "Tu cuenta esta siendo registrada en un dispositivo nuevo. Codigo: 123-456",
+        "date": "1679383912858",
+        "date_sent": "1679383888000",
+        "status": "-1",
+        "type": "1",
+        "recipients": ["WhatsApp"],
+        "read": "0",
+        "isodate": "2023-03-21 07:31:52.858000",
+        "direction": "sent"
+    },
+    {
+        "address": "+52818123456",
+        "body": "Tu codigo Uber es 6670",
+        "date": "1679416921657",
+        "date_sent": "1679416919000",
+        "status": "-1",
+        "type": "1",
+        "recipients": ["+52818123456"],
+        "read": "0",
+        "isodate": "2023-03-21 16:42:01.657000",
+        "direction": "sent"
+    },
+    {
+        "sub": "",
+        "date": "1754255888",
+        "date_sent": "1754255888",
+        "m_type": "132",
+        "msg_box": "1",
+        "recipients": [
+            "xyzxyzxyzloremipsumxyzxyzxyzknzx@bot.rcs.google.com"
+        ],
+        "tr_id": "proto:xyzxyzxyzloremipsumxyzxyzxyzNzUwMC00ZmU0LTk0ZmItNWMyNzNlMDEzN2Rh",
+        "read": "0",
+        "mms_addresses": [
+            {
+                "type": 130,
+                "address": "telcel@rbm.goog",
+                "charset": 106
+            },
+            {
+                "type": 137,
+                "address": "telcel@rbm.goog",
+                "charset": 106
+            },
+            {
+                "type": 151,
+                "address": "+525560621323",
+                "charset": 106
+            }
+        ],
+        "mms_charset": 0,
+        "sub_cs": "106",
+        "body": "\u00a1Mantente conectado en todo momento y no te pierdas las ofertas que hemos preparado para ti!",
+        "isodate": "1970-01-21 07:17:35.888000",
+        "direction": "sent"
+    },
+    {
+        "sub": "",
+        "date": "1754255889",
+        "date_sent": "1754255889",
+        "m_type": "132",
+        "msg_box": "1",
+        "recipients": [
+            "xyzxyzxyzloremipsumxyzxyzxyz@bot.rcs.google.com"
+        ],
+        "tr_id": "proto:xyzxyzxyzloremipsumxyzxyzxyzmjdhYjY2",
+        "read": "0",
+        "mms_addresses": [
+            {
+                "type": 130,
+                "address": "telcel@rbm.goog",
+                "charset": 106
+            },
+            {
+                "type": 137,
+                "address": "telcel@rbm.goog",
+                "charset": 106
+            },
+            {
+                "type": 151,
+                "address": "+525560621323",
+                "charset": 106
+            }
+        ],
+        "mms_charset": 0,
+        "sub_cs": "106",
+        "body": "Si lo prefieres ingresa al sitio web dando clic aqu\u00ed \ncomprasaldo.telcel.com/abc",
+        "isodate": "1970-01-21 07:17:35.889000",
+        "direction": "sent"
+    }
+]

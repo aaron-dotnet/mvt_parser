@@ -1,0 +1,18 @@
+{
+    "system": {
+        "accelerometer_rotation": "0",
+        "alarm_alert": "file:///system/media/audio/ui/ringtone.ogg",
+        "dim_screen": "1",
+        "screen_brightness": "120"
+    },
+    "secure": {
+        "android_provider": "com.google",
+        "bluetooth_on": "1",
+        "device_provisioned": "1"
+    },
+    "global": {
+        "airplane_mode_on": "0",
+        "wifi_on": "1",
+        "mobile_data": "1"
+    }
+}

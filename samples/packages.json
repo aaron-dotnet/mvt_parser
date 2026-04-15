@@ -1,0 +1,134 @@
+[
+    {
+        "package_name": "com.example.app",
+        "file_name": "/data/app/com.example.app/base.apk",
+        "installer": "com.android.vending",
+        "disabled": false,
+        "system": false,
+        "third_party": true,
+        "files": [
+            {
+                "path": "/data/app/com.example.app/base.apk",
+                "md5": "abc123",
+                "sha1": "def456",
+                "sha256": "ghi789",
+                "sha512": "jkl012"
+            }
+        ],
+        "uid": "10000",
+        "version_name": "1.0.0",
+        "version_code": "1 minSdk=21 targetSdk=33",
+        "timestamp": "2024-01-01 12:00:00",
+        "first_install_time": "2024-01-01 12:00:00",
+        "last_update_time": "2024-01-15 18:30:00",
+        "permissions": [
+            {
+                "name": "android.permission.INTERNET",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.WRITE_SETTINGS",
+                "granted": true,
+                "type": "install"
+            }
+        ],
+        "requested_permissions": [
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.BLUETOOTH",
+            "android.permission.BLUETOOTH_CONNECT",
+            "android.permission.BLUETOOTH_PRIVILEGED",
+            "android.permission.UPDATE_APP_OPS_STATS",
+            "android.permission.UPDATE_DEVICE_STATS",
+            "android.permission.WRITE_SETTINGS",
+            "android.permission.POST_NOTIFICATIONS"
+        ]
+    },
+        {
+        "package_name": "com.google.android.apps.subscriptions.red",
+        "file_name": "/product/app/GoogleOne/GoogleOne.apk",
+        "installer": null,
+        "disabled": false,
+        "system": true,
+        "third_party": false,
+        "files": [
+            {
+                "path": "/product/app/GoogleOne/GoogleOne.apk",
+                "md5": "96f0de0e7640c0a3c4116c639e2df7b5",
+                "sha1": "b482352f46a45dd84a90a4154f2bf50ab19c1ed8",
+                "sha256": "5debece6e8fb52399e1fd62f62b2bf8ec9e424cf3cde2b6665a3175baec5e8f7",
+                "sha512": "04606b91bbe2a515d8f4a6e3a77adfed075a877ea93d842a350195459f27d07afec5892b59dc66aae45e0ab732c6da3cb7801df106669c0c9fa97a67b0f01442"
+            }
+        ],
+        "uid": "10213",
+        "version_name": "1.48.276523843",
+        "version_code": "24831 minSdk=17 targetSdk=29",
+        "timestamp": "2008-12-31 18:00:00",
+        "first_install_time": "2008-12-31 18:00:00",
+        "last_update_time": "2008-12-31 18:00:00",
+        "permissions": [
+            {
+                "name": "com.google.android.c2dm.permission.RECEIVE",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.MANAGE_ACCOUNTS",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.INTERNET",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "com.android.vending.BILLING",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.GET_PACKAGE_SIZE",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.CHANGE_WIFI_STATE",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.ACCESS_NETWORK_STATE",
+                "granted": true,
+                "type": "install"
+            },
+            {
+                "name": "android.permission.WAKE_LOCK",
+                "granted": true,
+                "type": "install"
+            }
+        ],
+        "requested_permissions": [
+            "android.permission.INTERNET",
+            "android.permission.WAKE_LOCK",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "com.android.vending.BILLING",
+            "android.permission.MANAGE_ACCOUNTS",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "android.permission.GET_PACKAGE_SIZE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "android.permission.CHANGE_WIFI_STATE"
+        ]
+    },
+]

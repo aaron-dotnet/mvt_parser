@@ -1,0 +1,10 @@
+{
+    "target_path": null,
+    "mvt_version": "2.7.0",
+    "date": "2026-04-12 14:40:56.887323",
+    "ioc_files": [
+        "/path/to/AmnestyTech.stix2",
+        "/path/to/predator.stix2"
+    ],
+    "hashes": []
+}

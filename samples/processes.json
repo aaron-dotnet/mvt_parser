@@ -1,0 +1,38 @@
+[
+    {
+        "user": "root",
+        "pid": 1,
+        "ppid": 0,
+        "virtual_memory_size": 2325540,
+        "resident_set_size": 4512,
+        "wchan": "0",
+        "aprocress": "0",
+        "stat": "S",
+        "proc_name": "init",
+        "label": ""
+    },
+    {
+        "user": "u0_a100",
+        "pid": 1234,
+        "ppid": 1,
+        "virtual_memory_size": 150000000,
+        "resident_set_size": 25000,
+        "wchan": "0",
+        "aprocress": "0",
+        "stat": "R",
+        "proc_name": "com.example.app",
+        "label": "u:object_r:app_data_file:s0"
+    },
+    {
+        "user": "system",
+        "pid": 567,
+        "ppid": 1,
+        "virtual_memory_size": 45000000,
+        "resident_set_size": 8000,
+        "wchan": "0",
+        "aprocress": "0",
+        "stat": "S",
+        "proc_name": "system_server",
+        "label": "u:object_r:system_server_prop:s0"
+    }
+]

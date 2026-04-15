@@ -1,0 +1,18 @@
+[
+    {
+        "name": "DEVICE_PROVISIONED",
+        "value": "1"
+    },
+    {
+        "name": "ro.build.id",
+        "value": "SKQ1.211019.001"
+    },
+    {
+        "name": "ro.product.model",
+        "value": "Pixel 6"
+    },
+    {
+        "name": "ro.product.brand",
+        "value": "Google"
+    }
+]

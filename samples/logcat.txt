@@ -1,0 +1,24 @@
+--------- beginning of crash
+01-15 10:30:00.000   100   100 F libc    : Fatal signal 6 (SIGABRT), code -1 in tid 100 (test.app)
+01-15 10:30:00.050   100   100 F libc    : crash_dump helper failed to exec
+01-15 10:31:00.000   200   200 E AndroidRuntime: FATAL EXCEPTION: main
+01-15 10:31:00.000   200   200 E AndroidRuntime: Process: com.example.app, PID: 200
+01-15 10:31:00.000   200   200 E AndroidRuntime: java.lang.RuntimeException: Test error
+01-15 10:31:00.000   200   200 E AndroidRuntime: 	at com.example.app.MainActivity.onCreate(MainActivity.java:50)
+01-15 10:31:00.000   200   200 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8000)
+--------- beginning of events
+04-09 02:36:08.617  1254  1254 I auditd  : type=1400 audit(0.0:437140): avc: denied { search } for comm=41646170744C61756E636820566D name="2032" dev="proc" ino=12213509 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+04-09 02:36:08.617  1254  1254 I auditd  : type=1400 audit(0.0:437139): avc: denied { search } for comm=41646170744C61756E636820566D name="2032" dev="proc" ino=12213509 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+--------- beginning of radio
+04-10 21:31:47.390  3130  3547 D GsmInboundSmsHandler: WaitingState.processMessage: processing EVENT_BROADCAST_SMS
+04-10 21:31:47.390  3130  3547 D GsmInboundSmsHandler: WaitingState.processMessage: processing EVENT_BROADCAST_SMS
+04-10 21:31:47.390  3130  3547 D GsmInboundSmsHandler: WaitingState.processMessage: processing EVENT_BROADCAST_SMS
+--------- beginning of system
+01-15 10:32:00.000   300   300 I ActivityManager: Start proc com.example.app for broadcast
+04-11 02:38:11.773  1672  2600 W DevicePolicyManager: Unknown user type: UserInfo{999:XSpace:801010}
+04-11 02:38:11.773  1672  2600 W DevicePolicyManager: Unknown user type: UserInfo{999:XSpace:801010}
+04-11 02:38:11.774  1672  2600 W DevicePolicyManager: Unknown user type: UserInfo{999:XSpace:801010}
+--------- beginning of main
+04-12 11:56:53.302  1225  2565 E libnav  : Ambient Light level: Original = 0, interpolate = 0, Filtered = 1
+04-12 11:56:53.302  1225  2565 E libnav  : AbaSetAmbientLightLevel: setting original level to 1
+04-12 11:56:53.302  1225  2565 E libnav  : ControlAlgorithmState: Feature 4 current state 3

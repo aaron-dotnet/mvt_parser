@@ -27,10 +27,11 @@ internal class Program
         "yyyy-MM-dd HH:mm:ss"
     ];
     // config
-    static readonly string filePath = "./samples/timeline_tiny.csv";
+    static readonly CultureInfo cultureInfo = CultureInfo.GetCultureInfo("en-US");
+    const string filePath = "./samples/timeline_tiny.csv";
     static readonly Encoding encoding = Encoding.UTF8; // original file exported on utf8
 
-    private static async Task Main(string[] args)
+    private static async Task Main()
     {
         Stopwatch sw = Stopwatch.StartNew();
 
@@ -80,7 +81,7 @@ internal class Program
         DateTime timestamp = DateTime.ParseExact(
             columns[0],
             DateFormats,
-            CultureInfo.InvariantCulture,
+            cultureInfo,
             DateTimeStyles.None);
 
         Plugins plugin = Enum.Parse<Plugins>(columns[1]);
